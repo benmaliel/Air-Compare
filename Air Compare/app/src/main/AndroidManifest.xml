@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ftt.aircompare" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="ftt.aircompare.Wattson"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ftt.aircompare.Input"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ftt.aircompare.ResultList"
+            android:label="Results"
+            android:parentActivityName="ftt.aircompare.Input"
+            android:theme="@style/AppLightTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ftt.aircompare.Input" />
+        </activity>
+        <activity
+            android:name="ftt.aircompare.DeviceDetail"
+            android:label="Details"
+            android:parentActivityName="ftt.aircompare.ResultList"
+            android:theme="@style/AppLightTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ftt.aircompare.ResultList" />
+        </activity>
+        <activity
+            android:name="ftt.aircompare.SaveList"
+            android:label="Saved results"
+            android:parentActivityName="ftt.aircompare.Input" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ftt.aircompare.Input" />
+        </activity>
+        <activity
+            android:name="ftt.aircompare.InitInput"
+            android:label="@string/title_activity_init_input"
+            android:parentActivityName="ftt.aircompare.Input" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ftt.aircompare.Input" />
+        </activity>
+        <activity
+            android:name="ftt.aircompare.BrandInput"
+            android:label="@string/title_activity_brand_input" >
+        </activity>
+        <activity
+            android:name="ftt.aircompare.CycleInput"
+            android:label="@string/title_activity_cycle_input" >
+        </activity>
+        <activity
+            android:name="ftt.aircompare.InstallationInput"
+            android:label="@string/title_activity_installation_input" >
+        </activity>
+        <activity
+            android:name="ftt.aircompare.OutputInput"
+            android:label="@string/title_activity_output_input" >
+        </activity>
+        <activity
+            android:name="ftt.aircompare.ModelInput"
+            android:label="@string/title_activity_model_input" >
+        </activity>
+    </application>
+
+</manifest>

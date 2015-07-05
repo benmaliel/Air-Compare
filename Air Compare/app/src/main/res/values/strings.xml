@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AirCompare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result_list">ResultList</string>
+    <string name="title_activity_device_detail">DeviceDetail</string>
+
+    <string-array name="cycle_options">
+        <item>All</item>
+        <item>Cooling Only</item>
+        <item>Reverse Cycle</item>
+    </string-array>
+    <string-array name="installation_options">
+        <item>All</item>
+        <item>Single Split System</item>
+        <item>Double/Triple Split</item>
+        <item>Window Wall</item>
+        <item>Portable Cooler</item>
+        <item>Packaged</item>
+        <item>Cassette</item>
+    </string-array>
+
+    <string name="title_activity_save_list">SaveList</string>
+
+    <color name="green">#2ecc71</color>
+    <color name="blue">#16ABE0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#e74c3c</color>
+    <color name="yellow">#f1c40f</color>
+
+    <string name="title_activity_init_input">InitInput</string>
+    <string name="title_activity_brand_input">BrandInput</string>
+    <string name="title_activity_cycle_input">CycleInput</string>
+    <string name="title_activity_installation_input">InstallationInput</string>
+    <string name="title_activity_output_input">OutputInput</string>
+    <string name="title_activity_model_input">ModelInput</string>
+
+</resources>

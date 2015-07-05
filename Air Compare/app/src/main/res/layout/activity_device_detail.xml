@@ -1,0 +1,180 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Input">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <View
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@color/green"
+                android:id="@+id/backdrop"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/manufacturerDisplay"
+                android:text="Panasonic"
+                android:textSize="28sp"
+                android:textColor="@color/white"
+                android:paddingLeft="5dp"
+                />
+
+
+            <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+                android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textColor="@color/green"
+            android:id="@+id/costDisplay"
+            android:text="$3,000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="PER YEAR"
+            android:id="@+id/suppView"
+            android:textColor="@color/green"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Model"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/blue"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/modelDisplay"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Installation Type"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/installationDisplay"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Function"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/functionDisplay"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="EER"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eerDisplay"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Available"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/availabilityDisplay"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Certified"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateDisplay"
+        android:textSize="22sp"
+        android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Country of Manufacture"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/countryDisplay"
+                android:textSize="22sp"
+                android:paddingLeft="5dp"/>
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
